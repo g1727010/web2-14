@@ -54,7 +54,13 @@ caption{
 
 }
 
+thead{
+  font-size: 300%;
+}
 
+tbody{
+  font-size: 300%;
+}
 
 #price{
 
