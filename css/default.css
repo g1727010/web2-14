@@ -4,6 +4,8 @@
   border: 2px solid lightcoral;
 
   border-collapse: collapse;
+  
+  width: 500px;
 
 }
 
@@ -51,7 +53,6 @@ caption{
 
   padding: 5px;
   font-size: 200%;
-  width: 500px;
 
 }
 
