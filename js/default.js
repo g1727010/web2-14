@@ -7,26 +7,30 @@ var message;
 
 if(answer === number){
 
-  message = 'あたり！';
+  message1 = 'あたり！';
+  message2 = '赤';
 
 }
 
 else if(answer < number){
 
-  message = '残念！もっと大きいです';
+  message1 = '残念！もっと大きいです';
+  message2 = '青';
 
 }
 
 else if(answer > number){
 
-  message = '残念！もっと小さいです';
-
+  message1 = '残念！もっと小さいです';
+　message2 = '黄';
 }
 
 else{
 
-  message = '０～２の数字を入力してください';
+  message1 = '０～２の数字を入力してください';
+  message2 = '入力が正しくないので表示されません';
 
 }
 
-document.getElementById('choice').textContent = message;
+document.getElementById('choice').textContent = message1;
+document.getElementById('color').textContent = message2;
