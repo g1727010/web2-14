@@ -7,8 +7,9 @@ var message;
 
 if(answer === number){
 
-  message1 = 'あたり！';
-  message2 = '赤';
+  message1 = '★★★★★';
+  message2 = '★★★★★';
+  message3 = '★★★★★'
 
 }
 
