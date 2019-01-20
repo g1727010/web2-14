@@ -1,37 +1,89 @@
 
-var number = Math.floor(Math.random()*3);
+var number = Math.floor(Math.random()*9);
 
-var answer = parseInt(window.prompt('数あてゲーム。０～２の数字を入力してください！'));
+var answer = parseInt(window.prompt('０～９の数字を入力してください！これで今日の運勢が分かるよ！'));
 
 var message;
 
 if(answer === number){
 
+  message1 = '★★★★☆';
+  message2 = '★★★★☆';
+  message3 = '★★★★☆';
+
+}
+
+else if(number - answer === 1 || number - answer === -1 ){
+
+  message1 = '★★★☆☆';
+  message2 = '★★★☆☆';
+  message3 = '★★★☆☆';
+}
+
+else if(number - answer === 2 || number - answer === -2 ){
+
+  message1 = '★★☆☆☆';
+  message2 = '★★★★☆';
+  message3 = '★☆☆☆☆';
+}
+
+else if(number - answer === 3 || number - answer === -3 ){
+
+  message1 = '★★★★☆';
+  message2 = '★☆☆☆☆';
+  message3 = '★★☆☆☆';
+}
+
+else if(number - answer === 4 || number - answer === -4 ){
+
+  message1 = '★☆☆☆☆';
+  message2 = '★★☆☆☆';
+  message3 = '★★★★☆';
+}
+
+else if(number - answer === 5 || number - answer === -5 ){
+
+  message1 = '★★☆☆☆';
+  message2 = '★★☆☆☆';
+  message3 = '★★☆☆☆';
+}
+
+else if(number - answer === 6 || number - answer === -6 ){
+
+  message1 = '★★☆☆☆';
+  message2 = '★★★★★';
+  message3 = '★★★☆☆';
+}
+
+else if(number - answer === 7 || number - answer === -7 ){
+
+  message1 = '★★★★★';
+  message2 = '★★★☆☆';
+  message3 = '★★☆☆☆';
+}
+
+else if(number - answer === 8 || number - answer === -8 ){
+
+  message1 = '★★★☆☆';
+  message2 = '★★☆☆☆';
+  message3 = '★★★★★';
+}
+
+else if(number - answer === 9|| number - answer === -9 ){
+
   message1 = '★★★★★';
   message2 = '★★★★★';
-  message3 = '★★★★★'
-
-}
-
-else if(answer < number){
-
-  message1 = '残念！もっと大きいです';
-  message2 = '青';
-
-}
-
-else if(answer > number){
-
-  message1 = '残念！もっと小さいです';
-　message2 = '黄';
+  message3 = '★★★★★';
 }
 
 else{
 
-  message1 = '０～２の数字を入力してください';
-  message2 = '入力が正しくないので表示されません';
+  message1 = '☆☆☆☆☆';
+  message2 = '☆☆☆☆☆';
+  message3 = '☆☆☆☆☆';
 
 }
 
-document.getElementById('choice').textContent = message1;
-document.getElementById('color').textContent = message2;
+document.getElementById('gold').textContent = message1;
+document.getElementById('work').textContent = message2;
+document.getElementById('love').textContent = message3;
