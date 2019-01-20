@@ -3,6 +3,11 @@ body{
   background-repeat: no-repeat;
 }
 
+.photo{
+  float: right;
+  margin-right: 30px;
+}
+
 #ingredient{
 
   border: 2px solid lightcoral;
