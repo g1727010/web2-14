@@ -1,5 +1,7 @@
 body{
-  background-image: url(../img/8053);
+  background-image: url(../img/8053.png);
+  background-repeat: no-repeat;
+  
 }
 
 #ingredient{
