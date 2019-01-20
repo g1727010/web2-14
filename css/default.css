@@ -14,7 +14,7 @@ body{
 }
 
 .explanation{
-  width: 1150px;
+  width: 1200px;
   font-size: 150%;
   background-color: lemonchiffon;
   float: left;
@@ -68,7 +68,7 @@ caption{
 
   padding: 5px;
   font-size: 300%;
-  color: yellow;
+  color: lawngreen;
 
 }
 
@@ -82,7 +82,7 @@ tbody{
 
 #star{
 
-  background-color: white;
+  background-color: lavender;
 
 }
 
