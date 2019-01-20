@@ -12,7 +12,7 @@
 .explanation{
   width: 1150px;
   font-size: 130%;
-  background-color: yellow;
+  background-color: lemonchiffon;
   float: left;
 }
 
@@ -64,6 +64,7 @@ caption{
 
   padding: 5px;
   font-size: 300%;
+  color: yellow;
 
 }
 
