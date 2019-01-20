@@ -14,7 +14,7 @@ body{
 }
 
 .explanation{
-  width: 1200px;
+  width: 1150px;
   font-size: 150%;
   background-color: lemonchiffon;
   float: left;
@@ -82,7 +82,7 @@ tbody{
 
 #star{
 
-  background-color: lemonchiffon;
+  background-color: ghostwhite;
 
 }
 
