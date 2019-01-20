@@ -10,6 +10,9 @@
 }
 
 .explanation{
+  width: 700px;
+  font-size: 200%;
+  background-color: yellow;
   float: left;
 }
 
